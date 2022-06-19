@@ -1,0 +1,39 @@
+.container{
+    background-image:url("./image/bg.jpg");
+    background-repeat:  none;
+    background-size: cover;
+    height: 96vh;
+    margin: 0;
+    width: 100%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+    color:black;
+    transition: .5s;
+}
+a:hover{
+    color:orangered;
+    border-bottom:2px solid orangered;
+    font-size: 20px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+.navbar{
+    display: flex;
+    transition: .5s;
+}
+h3{
+    color:black;
+    padding-left: 10px;
+}
+.navbar:hover{
+    background-color: white;
+}
